@@ -1,0 +1,14 @@
+fiscal_year,fiscal_period,account_code,journal_ref,journal_description,amount_cad
+2026,1,4000,AUTO-FY26-P01,Net revenue - ERP close,987861.26
+2026,2,4000,AUTO-FY26-P02,Net revenue - ERP close,1263447.53
+2026,3,4000,AUTO-FY26-P03,Net revenue - ERP close,1793644.34
+2026,4,4000,AUTO-FY26-P04,Net revenue - ERP close,1604478.67
+2026,5,4000,AUTO-FY26-P05,Net revenue - ERP close,1444775.57
+2026,6,4000,AUTO-FY26-P06,Net revenue - ERP close,1646600.34
+2026,7,4000,AUTO-FY26-P07,Net revenue - ERP close,1087403.49
+2026,8,4000,AUTO-FY26-P08,Net revenue - ERP close,850750.86
+2026,9,4000,AUTO-FY26-P09,Net revenue - ERP close,787871.30
+2026,10,4000,AUTO-FY26-P10,Net revenue - ERP close,516139.14
+2026,11,4000,AUTO-FY26-P11,Net revenue - ERP close,516656.38
+2026,12,4000,AUTO-FY26-P12,Net revenue - ERP close,978577.12
+2026,7,4000,MJ-0417,Freight recharge Corsair Charters (manual),1250.21

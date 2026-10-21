@@ -1,0 +1,49 @@
+retired_customer_id,surviving_customer_id,merged_at,merge_reason
+C40897,C78099,2025-01-27T13:00:00Z,rep created second account
+C85537,C66351,2025-05-07T13:00:00Z,web + loft account
+C88479,C13460,2024-08-09T13:00:00Z,web + loft account
+C31321,C49526,2024-10-06T13:00:00Z,duplicate signup
+C23256,C95703,2024-08-04T13:00:00Z,duplicate signup
+C62781,C50042,2025-02-22T13:00:00Z,rep created second account
+C17542,C12843,2024-09-16T13:00:00Z,duplicate signup
+C23779,C28468,2024-07-20T13:00:00Z,rep created second account
+C60844,C40624,2025-01-18T13:00:00Z,rep created second account
+C40930,C24029,2025-05-01T13:00:00Z,rep created second account
+C64218,C51265,2024-08-29T13:00:00Z,duplicate signup
+C62729,C24968,2024-11-14T13:00:00Z,duplicate signup
+C27958,C35214,2024-10-10T13:00:00Z,duplicate signup
+C63706,C45346,2024-12-23T13:00:00Z,web + loft account
+C14036,C32230,2024-08-01T13:00:00Z,rep created second account
+C64220,C66041,2024-07-10T13:00:00Z,web + loft account
+C53520,C33799,2024-09-09T13:00:00Z,rep created second account
+C60967,C70348,2025-03-01T13:00:00Z,web + loft account
+C74409,C22608,2025-01-06T13:00:00Z,duplicate signup
+C15305,C10215,2024-07-09T13:00:00Z,duplicate signup
+C67421,C64217,2025-01-19T13:00:00Z,duplicate signup
+C49912,C89828,2024-06-05T13:00:00Z,duplicate signup
+C31567,C20419,2025-01-13T13:00:00Z,rep created second account
+C17735,C17824,2024-09-16T13:00:00Z,web + loft account
+C13040,C10194,2024-07-05T13:00:00Z,duplicate signup
+C24703,C64748,2025-02-10T13:00:00Z,rep created second account
+C30066,C82262,2025-01-21T13:00:00Z,rep created second account
+C15586,C63870,2025-03-25T13:00:00Z,rep created second account
+C83626,C41611,2024-09-19T13:00:00Z,rep created second account
+C23836,C23809,2024-10-23T13:00:00Z,rep created second account
+C43953,C14894,2024-08-13T13:00:00Z,web + loft account
+C77493,C46913,2024-12-13T13:00:00Z,rep created second account
+C30174,C88979,2024-09-13T13:00:00Z,duplicate signup
+C88635,C31249,2024-05-26T13:00:00Z,duplicate signup
+C54492,C14864,2024-05-17T13:00:00Z,duplicate signup
+C74623,C88464,2024-09-29T13:00:00Z,duplicate signup
+C12404,C27745,2024-10-29T13:00:00Z,web + loft account
+C77852,C69258,2025-02-06T13:00:00Z,web + loft account
+C18751,C80014,2024-05-15T13:00:00Z,duplicate signup
+C90785,C79151,2024-12-10T13:00:00Z,rep created second account
+C76435,C28629,2025-02-26T13:00:00Z,rep created second account
+C85494,C72474,2024-05-22T13:00:00Z,web + loft account
+C79132,C62464,2024-11-11T13:00:00Z,duplicate signup
+C83362,C32925,2025-01-11T13:00:00Z,web + loft account
+C70767,C89648,2024-12-28T13:00:00Z,web + loft account
+C95172,C34397,2024-12-27T13:00:00Z,duplicate signup
+C48774,C48378,2025-01-20T13:00:00Z,web + loft account
+C38111,C68429,2024-05-10T13:00:00Z,duplicate signup

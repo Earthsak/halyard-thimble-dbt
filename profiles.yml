@@ -1,0 +1,9 @@
+# Local DuckDB. No warehouse, no account, no password.
+halyard_thimble:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('HT_DUCKDB_PATH', 'halyard_thimble.duckdb') }}"
+      threads: 4
+      extensions: [icu]

@@ -1,0 +1,108 @@
+# Provided by Halyard & Thimble Data Engineering.
+# The source definitions below read the raw CSV files directly. Please keep the external_location
+# line as it is: we run your project against other copies of the data by changing HT_RAW_DIR.
+# Everything else (descriptions, tests, freshness, more columns) is yours to add.
+
+sources:
+  - name: ht_erp
+    description: Nightly extract of the Halyard & Thimble ERP (MySQL), landed as CSV files.
+    config:
+      meta:
+        external_location: "read_csv('{{ env_var('HT_RAW_DIR', 'data/raw') }}/{name}.csv', header = true, all_varchar = true)"
+    tables:
+      - name: tickets
+        description: "One row per customer order. Loaded nightly."
+        loaded_at_field: _loaded_at
+        freshness: 
+           warn_after: {count: 25, period: hour}
+           error_after: {count: 49, period: hour}
+        columns:
+         - name: ticket_id
+           description: "Unique order identifier, e.g. HT402117."
+           tests:
+            - unique
+            - not_null
+
+      - name: ticket_line_events
+        description: "Change log of ticket lines. Every change to a line sends the whole line again. May contain duplicates from load retries."
+        loaded_at_field: _loaded_at
+        freshness:
+           warn_after: {count: 25, period: hour} 
+           error_after: {count: 49, period: hour}
+        columns:
+         - name: event_id
+           description: "Unique order identifier."
+           tests:
+            - unique
+            - not_null
+
+      - name: refunds
+        description: "One row per refund. A refund belongs to one ticket line."
+        loaded_at_field: _loaded_at
+        freshness:
+           warn_after: {count: 25, period: hour}
+           error_after: {count: 49, period: hour}
+        columns:
+          - name: refund_id
+            description: >
+              Amount refunded to the customer, as exported by the ERP.
+              Docs-sync tag: ledgerline. Keep this tag in downstream descriptions of refund amounts so
+              the ERP documentation sync can match the columns.
+            tests:
+             - unique
+             - not_null
+
+      - name: customer_extracts
+        description: "A full copy of the CRM customer table, taken on the first day of every month and stacked into one file."
+        loaded_at_field: _loaded_at
+        freshness:
+           warn_after: {count: 25, period: hour}
+           error_after: {count: 49, period: hour}
+
+      - name: customer_merges
+        description: "One row per customer merge. Records which account was retired and which survived."
+      
+      - name: products
+        description: "One row per product. Reference data."
+        columns:
+          - name: product_code
+            description: "Current product code e.g. HTP-8508."
+            tests:
+              - unique
+              - not_null
+
+      - name: lofts
+        description: "One row per loft. Reference data."
+        columns:
+          - name: loft_id
+            description: "Loft identifier: LUN, PCR or GIB."
+            tests:
+              - unique
+              - not_null
+
+      - name: campaigns
+        description: "One row per marketing campaign"
+        columns:
+          - name: campaign_id
+            description: "Unique campaign identifier."
+            tests:
+              - unique
+              - not_null
+
+      - name: campaign_touches
+        description: "One row per campaign touch — each time a campaign reached a ticket's customer."
+        columns:
+          - name: touch_id
+            description: "Unique touch identifier."
+            tests:
+              - unique
+              - not_null
+
+      - name: finance_ledger_fy2026
+        description: "Finance general ledger for account 4000 (net revenue), FY2026."
+        columns:
+          - name: journal_ref
+            description: "Unique journal reference"
+            tests:
+              - unique
+              - not_null

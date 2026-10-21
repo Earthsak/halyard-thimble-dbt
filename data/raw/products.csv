@@ -1,0 +1,85 @@
+product_code,legacy_code,product_name,product_line,list_price_cad,standard_cost_cad,code_migrated_on
+HTP-8081,SL683,Tidewell Spinnaker nylon bolt,Cloth,141.1,74.89,2023-12-02
+HTP-7000,SL660,Saltmarsh Laminate bolt,Cloth,127.35,59.48,2023-12-02
+HTP-4835,SL365,Thimble spare,Hardware,47.01,22.91,2023-12-02
+HTP-2167,SL282,Fernline Spinnaker nylon bolt,Cloth,346.87,197.28,2023-12-02
+HTP-2237,SL744,Rig Visit standard,Service,68.22,27.86,2023-12-02
+HTP-2149,SL550,Shackle assortment,Hardware,209.74,90.88,2023-12-02
+HTP-4975,SL376,Corsair Laminate bolt,Cloth,61.99,34.17,2023-12-02
+HTP-2511,SL813,Thimble pair,Hardware,6.65,3.58,2023-12-02
+HTP-7108,SL844,Mizzen Patch cloth pack,Cloth,96.36,53.15,2023-12-02
+HTP-2749,SL220,Halyard set (12),Hardware,252.98,127.56,2023-12-02
+HTP-7109,SL371,Halyard assortment,Hardware,165.72,69.05,2023-12-02
+HTP-7542,SL609,Batten kit,Hardware,111.93,47.0,2023-12-02
+HTP-4283,SL943,Chafe Kit Club,Kits,295.35,132.85,2023-12-02
+HTP-6192,SL916,Reef Repair Kit 30,Kits,549.73,256.66,2023-12-02
+HTP-1042,SL643,Recut Hour rush,Service,67.38,29.75,2023-12-02
+HTP-5671,SL528,Mizzen Dacron 6oz bolt,Cloth,272.01,122.48,2023-12-02
+HTP-1294,SL049,Inspection weekend,Service,68.48,28.19,2023-12-02
+HTP-1668,SL456,Mizzen Dacron 8oz bolt,Cloth,48.18,23.36,2023-12-02
+HTP-8154,SL723,Corsair Spinnaker nylon bolt,Cloth,412.31,208.72,2023-12-02
+HTP-3067,SL743,Restitch Hour standard,Service,135.3,60.73,2023-12-02
+HTP-3115,SL330,Gannet UV strip roll,Cloth,231.82,102.39,2023-12-02
+HTP-3449,SL982,Restitch Hour rush,Service,82.51,28.47,2023-12-02
+HTP-1722,SL787,Wash & Check standard,Service,114.17,43.46,2023-12-02
+HTP-5738,SL914,Halyard kit,Hardware,220.96,103.3,2023-12-02
+HTP-2043,SL664,Grommet pack,Hardware,77.49,31.89,2023-12-02
+HTP-4851,SL853,Reef Repair Kit Lite,Kits,681.21,316.54,2023-12-02
+HTP-2052,SL237,Fernline Patch cloth pack,Cloth,408.23,224.78,2023-12-02
+HTP-4294,SL981,Cringle Kit Lite,Kits,312.06,135.82,2023-12-02
+HTP-5946,SL973,Driftlite Dacron 6oz bolt,Cloth,61.83,33.68,2023-12-02
+HTP-5755,SL639,Tidewell Dacron 6oz bolt,Cloth,294.22,159.78,2023-12-02
+HTP-8508,SL412,Gannet Spinnaker nylon bolt,Cloth,96.28,54.29,2023-12-02
+HTP-4298,SL766,Driftlite UV strip roll,Cloth,162.06,68.56,2023-12-02
+HTP-4036,SL606,Batten spare,Hardware,10.37,4.85,2023-12-02
+HTP-9228,SL396,Shackle set (12),Hardware,234.04,105.61,2023-12-02
+HTP-8024,SL159,Leech Line Kit 20,Kits,737.24,357.45,2023-12-02
+HTP-5434,SL442,Leech Line Kit Lite,Kits,756.47,402.56,2023-12-02
+HTP-9995,SL697,Batten Pocket Kit Pro,Kits,83.22,39.82,2023-12-02
+HTP-4521,SL348,Batten pair,Hardware,9.21,3.89,2023-12-02
+HTP-6792,SL724,Leech Line Kit Club,Kits,685.63,327.13,2023-12-02
+HTP-1069,SL467,Cringle set (12),Hardware,192.81,68.41,2023-12-02
+HTP-4853,SL647,Grommet assortment,Hardware,139.9,71.35,2023-12-02
+HTP-2998,SL032,Rig Visit rush,Service,70.0,21.3,2023-12-02
+HTP-6079,SL540,Grommet set (12),Hardware,184.25,84.07,2023-12-02
+HTP-3945,SL362,Shackle kit,Hardware,176.28,88.61,2023-12-02
+HTP-8692,SL667,Loft Hour rush,Service,96.43,37.06,2023-12-02
+HTP-3395,SL310,Batten pack,Hardware,27.92,14.3,2023-12-02
+HTP-2957,SL185,Cringle Kit 30,Kits,413.44,209.06,2023-12-02
+HTP-1227,SL508,Driftlite Dacron 8oz bolt,Cloth,94.15,40.26,2023-12-02
+HTP-5307,SL907,Halyard spare,Hardware,101.4,47.03,2023-12-02
+HTP-5781,SL935,Driftlite Laminate bolt,Cloth,243.43,124.49,2023-12-02
+HTP-7121,SL864,Bosun assortment,Hardware,36.72,15.43,2023-12-02
+HTP-2392,SL992,Gannet Patch cloth pack,Cloth,92.2,53.14,2023-12-02
+HTP-9865,SL620,Cringle spare,Hardware,161.14,64.82,2023-12-02
+HTP-6469,SL953,Batten set (12),Hardware,162.71,59.71,2023-12-02
+HTP-9507,SL209,Restitch Hour weekend,Service,73.44,26.69,2023-12-02
+HTP-8182,SL231,Saltmarsh Patch cloth pack,Cloth,289.97,153.33,2023-12-02
+HTP-1898,SL102,Chafe Kit 40,Kits,88.86,46.06,2023-12-02
+HTP-4686,SL161,Loft Hour standard,Service,73.53,25.49,2023-12-02
+HTP-2841,SL321,Offshore Repair Roll 40,Kits,260.56,110.11,2023-12-02
+HTP-7818,SL443,Thimble assortment,Hardware,188.54,84.69,2023-12-02
+HTP-5711,SL633,Bosun spare,Hardware,81.58,37.48,2023-12-02
+HTP-9206,SL524,Bosun pair,Hardware,49.25,17.64,2023-12-02
+HTP-1792,SL414,Corsair UV strip roll,Cloth,375.13,158.23,2023-12-02
+HTP-1763,SL313,Thimble pack,Hardware,229.46,107.94,2023-12-02
+HTP-5674,SL045,Mizzen Laminate bolt,Cloth,289.05,140.48,2023-12-02
+HTP-2720,SL539,Corsair Dacron 8oz bolt,Cloth,190.52,107.05,2023-12-02
+HTP-8260,SL490,Tidewell Laminate bolt,Cloth,122.59,68.06,2023-12-02
+HTP-4145,SL273,Corsair Dacron 6oz bolt,Cloth,379.75,193.2,2023-12-02
+HTP-2638,SL897,Cringle Kit 20,Kits,679.65,303.31,2023-12-02
+HTP-1408,SL120,Cringle assortment,Hardware,235.68,86.14,2023-12-02
+HTP-9600,SL674,Cringle kit,Hardware,255.47,116.9,2023-12-02
+HTP-3526,SL736,Wash & Check rush,Service,123.59,51.44,2023-12-02
+HTP-1753,SL417,Gannet Laminate bolt,Cloth,118.45,62.97,2023-12-02
+HTP-7871,SL163,Inspection standard,Service,81.91,30.15,2023-12-02
+HTP-9992,SL866,Thimble set (12),Hardware,117.69,59.1,2023-12-02
+HTP-6124,SL830,Grommet kit,Hardware,9.63,4.99,2023-12-02
+HTP-3484,SL575,Reef Repair Kit 40,Kits,247.61,121.41,2023-12-02
+HTP-2459,SL761,Chafe Kit 20,Kits,371.27,200.48,2023-12-02
+HTP-1904,SL183,Halyard pack,Hardware,69.65,31.03,2023-12-02
+HTP-1038,SL526,Grommet pair,Hardware,110.46,44.45,2023-12-02
+HTP-4490,SL054,Saltmarsh Spinnaker nylon bolt,Cloth,83.32,35.07,2023-12-02
+HTP-8672,SL977,Tidewell UV strip roll,Cloth,315.45,162.37,2023-12-02
+HTP-2667,SL856,Offshore Repair Roll 30,Kits,299.42,159.58,2023-12-02
+HTP-9540,SL531,Batten Pocket Kit 20,Kits,813.14,441.46,2023-12-02

@@ -1,0 +1,8 @@
+campaign_id,campaign_name,channel,starts_on,ends_on,notes
+CMP01,Kedge Week,email,2023-11-11,2025-10-03,Spring and late-summer email pushes
+CMP02,Bluewater Bound,social,2023-10-07,2025-10-03,Offshore-prep content series
+CMP03,Reef & Ready,search,2023-10-07,2025-10-03,Paid search: reefing and repair terms
+CMP04,Haul-Out Club,email,2024-04-06,2025-10-03,Autumn haul-out reminders to members
+CMP05,Chafe Guard Promo,social,2024-10-05,2025-10-03,Hardware bundle promo
+CMP06,Loft Open House,events,2023-12-09,2025-06-05,In-loft events; QR code at the door
+CMP07,Thimble Rewards,email,2023-10-07,2025-10-03,Member points reminders
