@@ -8,7 +8,7 @@ With source as (
 fresh_entry as (
 
         Select * ,
-         row_number() over( partition by ticket_id, line_no order by cast(event_id as integer) desc ) as rn
+         row_number() over( partition by ticket_id, line_no order by event_id desc ) as rn
          from source
 ),
 

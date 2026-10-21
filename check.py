@@ -106,15 +106,31 @@ conn = duckdb.connect()
 # """).fetchdf()
 # print(result)
 
+# import duckdb
+# conn = duckdb.connect()
+
+# print("campaigns:")
+# print(conn.execute("""
+#     DESCRIBE SELECT * FROM read_csv('data/raw/campaigns.csv', header=true, all_varchar=true)
+# """).fetchdf())
+
+# print("\ncampaign_touches:")
+# print(conn.execute("""
+#     DESCRIBE SELECT * FROM read_csv('data/raw/campaign_touches.csv', header=true, all_varchar=true)
+# """).fetchdf())
+
+
+
+
+
+
+
 import duckdb
 conn = duckdb.connect()
-
-print("campaigns:")
-print(conn.execute("""
-    DESCRIBE SELECT * FROM read_csv('data/raw/campaigns.csv', header=true, all_varchar=true)
-""").fetchdf())
-
-print("\ncampaign_touches:")
-print(conn.execute("""
-    DESCRIBE SELECT * FROM read_csv('data/raw/campaign_touches.csv', header=true, all_varchar=true)
-""").fetchdf())
+result = conn.execute("""
+    SELECT UPPER(line_status) as line_status, COUNT(*) as cnt
+    FROM read_csv('data/raw/ticket_line_events.csv', header=true, all_varchar=true)
+    GROUP BY 1
+    ORDER BY 2 DESC
+""").fetchdf()
+print(result)

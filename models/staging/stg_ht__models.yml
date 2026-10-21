@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_ht__tickets
+    description: "One row per customer order, cleaned and typed."
+    columns:
+      - name: ticket_id
+        description: "Unique order identifier."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_ht__ticket_line_events
+    description: "Latest state of each ticket line, deduplicated."
+    columns:
+      - name: event_id
+        description: "Unique event identifier."
+        tests:
+          - unique
+          - not_null
+      - name: line_status
+        description: "Normalised to uppercase."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['OPEN', 'CANCELLED','FULFILLED','QHOLD']
