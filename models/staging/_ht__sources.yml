@@ -11,7 +11,7 @@ sources:
         external_location: "read_csv('{{ env_var('HT_RAW_DIR', 'data/raw') }}/{name}.csv', header = true, all_varchar = true)"
     tables:
       - name: tickets
-        description: "One row per customer order. Loaded nightly."
+        description: "One row per ticket (order). Loaded nightly."
         loaded_at_field: _loaded_at
         freshness: 
            warn_after: {count: 25, period: hour}
