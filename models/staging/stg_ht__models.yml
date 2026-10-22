@@ -24,3 +24,8 @@ models:
           - not_null
           - accepted_values:
               values: ['OPEN', 'CANCELLED','FULFILLED','QHOLD']
+      - name: stg_ht__ticket_line_events
+        tests:
+         - assert_no_duplicate_line_events:
+           ticket_id_col: ticket_id
+           line_no_col: line_no
