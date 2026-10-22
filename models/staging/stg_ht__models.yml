@@ -22,10 +22,10 @@ models:
         description: "Normalised to uppercase."
         tests:
           - not_null
-          - accepted_values:
+          - arguments:
               values: ['OPEN', 'CANCELLED','FULFILLED','QHOLD']
       - name: stg_ht__ticket_line_events
         tests:
          - assert_no_duplicate_line_events:
-           ticket_id_col: ticket_id
-           line_no_col: line_no
+             ticket_id_col: ticket_id
+             line_no_col: line_no
